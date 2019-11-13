@@ -3,13 +3,28 @@
     padding: 0;
 }
 
+/*NAVBAR*/
+.navbar {
+    height: 30px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    font-size: 20px;
+    margin: 20px 15px 5px 15px;
+}
+
+
+/*LOGO*/
 .logo {
     display: flex;
-    background: red;
-    width: 100%;
+    width: 50%;
     height: 400px;
     justify-content: center;
-    margin: 30px 0px;
+    margin: 30px auto;
 }
 
 /*to have img as link a tag becomes a container*/
@@ -37,4 +52,35 @@
     height: 60px;
     font-size: 20px;
     border-radius: 10px;
+}
+
+/*BUTTONS*/
+.button-area {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    height: 60px;
+    margin: 20px auto 0px auto;
+}
+
+.button-area button {
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+footer {
+    background: grey;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    margin: 20px 10px 0px 10px;
 }
